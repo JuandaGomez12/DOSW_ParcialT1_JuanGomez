@@ -61,3 +61,115 @@
 | Descripción | Redacción en formato: Como Usuario/Cliente quiero que la pagina me permita ver el total mi pedido para poder ver me manera cuantitativa lo que debo pagar de  mi pedido  |
 | Prioridad   | Alta |
 | Estimación  | 3 |
+
+##  los 2 requerimientos funcionales seleccionados en el punto anterior, siguiendo la plantilla de Análisis de requerimientos.
+
+- Funcionalidad "La pagina debe permitir personalizar el pedido"
+
+| Campo        | Descripción |
+|-------------|------------|
+| ID          | R1 |
+| Nombre      | Personalizacion pedido |
+| Descripción | La pagina debe permitir personalizar el pedido del usuario|
+| Como se ejecutara:   | El usuario al acceder al portal web, este seleccionara los elementos que quiera, cuando este quiera adicionar algun otro elemento se va añadir el precio al total que el usuario debe pagar |
+| Actor principal   | Cliente |
+| Precondiciones  | El sistema debe permitir añadir los elementos que se desean comprar |
+
+## Datos de entrada
+
+| Campo        | Descripción |
+|-------------|------------|
+| Nombre          | Personalizacion pedido|
+| Descripción | La pagina debe permitir personalizar el pedido del usuario|
+| Tipo de campo  | Seleccion de producto dado (Pedido, Producto, preparacion, Extras)|
+| Reglas   | El cliente debe ir agregando los productos uno por uno |
+| Obligatorio  | El cliente tenga una cuenta asociada, que tenga un metodo de pago definido |
+
+## Datos de salida
+
+| Campo        | Descripción |
+|-------------|------------|
+| Nombre          | Personalizacion pedido|
+| Descripción | La pagina debe permitir personalizar el pedido del usuario|
+| Tipo de campo  | Descripcion de los elementos seleccionados|
+| Reglas   | Se proporcionara un resumen de los productos que seleccionaste |
+| Obligatorio  | Que se tenga un cliente asociado |
+
+## Flujo basico
+
+| Campo        | Descripción |
+|-------------|------------|
+| Paso          | El usuario al acceder al portal web, este seleccionara los elementos que quiera, cuando este quiera adicionar algun otro elemento se va añadir |
+| Descripción | La pagina debe permitir personalizar el pedido del usuario|
+| Excepciones | Al no añadir nada le saldra una excepcion, al no añadir un producto que no este disponible le saldra una excepcion |
+| Actor  | Cliente |
+
+## Flujo alterno
+
+| Campo        | Descripción |
+|-------------|------------|
+| Paso          | El usuario al acceder al portal web, este seleccionara los elementos que quiera, cuando este quiera adicionar algun otro elemento se va añadir |
+| Descripción | La pagina debe permitir personalizar el pedido del usuario|
+| Excepciones | Al no añadir nada le saldra una excepcion, al no añadir un producto que no este disponible le saldra una excepcion, al intentar poner una cantidad negativa del producto a añadir saldra una excepcion, al intentar poner una cantidad negativa del producto a añadir saldra una excepcion |
+| Actor  | Cliente |
+
+## Regla de negocio
+| Campo        | Descripción |
+|-------------|------------|
+| No.          | 1 |
+| Descripción | La pagina debe permitir personalizar el pedido del usuario de usuarios netamente asociados a la universidad y que esten de manera activa en algun programa|
+
+- Funcionalidad "La pagina debe mostrar el total de todos los productos seleccionados"
+
+| Campo        | Descripción |
+|-------------|------------|
+| ID          | R2 |
+| Nombre      | Total pedido |
+| Descripción | La pagina debe permitir visualizar el total del pedido del usuario|
+| Como se ejecutara:   | El usuario al acceder al portal web, este seleccionara los elementos que quiera, cuando este quiera adicionar algun otro elemento se va añadir el precio al total que el usuario debe pagar mostrando un resumen de lo que añadio|
+| Actor principal   | Cliente |
+| Precondiciones  | El sistema permita añadir productos |
+
+## Datos de entrada
+
+| Campo        | Descripción |
+|-------------|------------|
+| Nombre          | Personalizacion pedido|
+| Descripción | La pagina debe permitir personalizar el pedido del usuario|
+| Tipo de campo  | Seleccion de producto dado (Pedido, Producto, preparacion, Extras)|
+| Reglas   | El cliente debe ir agregando los productos uno por uno con su cantidad |
+| Obligatorio  | El cliente tenga una cuenta asociada, que tenga un metodo de pago definido |
+
+## Datos de salida
+
+| Campo        | Descripción |
+|-------------|------------|
+| Nombre          | Personalizacion pedido|
+| Descripción |La pagina debe permitir visualizar el total del pedido del usuario|
+| Tipo de campo  | Descripcion de los productos elegidos con el costo de cada uno y un resumen del total a pagar|
+| Reglas   | Se proporcionara un resumen de los productos que seleccionaste con su costo |
+| Obligatorio  | Que se tenga un cliente asociado |
+
+## Flujo basico
+
+| Campo        | Descripción |
+|-------------|------------|
+| Paso          | El usuario al acceder al portal web, este seleccionara los elementos que quiera, cuando este quiera adicionar algun otro elemento se va añadir, al finalizar la seleccion se pondra un resumen con todo lo seleccionado |
+| Descripción |La pagina debe permitir visualizar el total del pedido del usuario|
+| Excepciones | El usuario seleccione elementos que no existen o no tengan un precio asociado saldra una excepcion  |
+| Actor  | Cliente |
+
+## Flujo alterno
+
+| Campo        | Descripción |
+|-------------|------------|
+| Paso          | El usuario al acceder al portal web, este seleccionara los elementos que quiera, cuando este quiera adicionar algun otro elemento se va añadir |
+| Descripción | La pagina debe permitir visualizar el total del pedido del usuario|
+| Excepciones | El usuario seleccione elementos que no existen o no tengan un precio asociado saldra una excepcion |
+| Actor  | Cliente |
+
+## Regla de negocio
+| Campo        | Descripción |
+|-------------|------------|
+| No.          | 2 |
+| Descripción | La pagina debe permitir validar el pago del total del pedido del usuario de usuarios netamente asociados a la universidad y que esten de manera activa en algun programa|
