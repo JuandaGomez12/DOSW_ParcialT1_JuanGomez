@@ -199,7 +199,7 @@
 
 ---
 
-
+# Tareas
 
 | Campo                              | Descripción |
 |-------------------------------------|------------|
@@ -224,3 +224,6 @@
 | ID de la Historia de Usuario asociada | HU3 |
 | Descripción                         |Se debe permitir ver un resumen de lo que se añadio   |
 | Tareas requisito                    | Requiere el sistema ver un resumen de lo añadido|
+
+## Ejercicio 7
+- Los principios SOLID en es el de Open/Closed ya que se puede manejar los toppings y las cosas a agregar sin intervenir de manera agresiva a la clase 
