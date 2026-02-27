@@ -199,7 +199,7 @@
 
 ---
 
-# Tareas
+## Tareas
 
 | Campo                              | Descripción |
 |-------------------------------------|------------|
@@ -226,4 +226,8 @@
 | Tareas requisito                    | Requiere el sistema ver un resumen de lo añadido|
 
 ## Ejercicio 7
-- Los principios SOLID en es el de Open/Closed ya que se puede manejar los toppings y las cosas a agregar sin intervenir de manera agresiva a la clase 
+- Single Responsability: Cada producto o topping se realiza en una interfaz independiente
+- Open/Closed que e spor medio de las interfaces entonces podemos añadir lo que se nos de la gana 
+- Segregacion de interfaces ningun clase es forzada a implementar algo que no tiene 
+
+![Diagrama punto 1](src/docs/images/Clase.png) 
