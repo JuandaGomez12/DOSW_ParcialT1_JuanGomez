@@ -173,3 +173,54 @@
 |-------------|------------|
 | No.          | 2 |
 | Descripción | La pagina debe permitir validar el pago del total del pedido del usuario de usuarios netamente asociados a la universidad y que esten de manera activa en algun programa|
+
+## Ejercicio 6
+
+# 1. Épicas
+
+| Campo        | Descripción |
+|-------------|------------|
+| ID          | E1|
+| Título      | Personalizacion pedidos |
+| Descripción | El objetivo es que se permita personalizar los pedidos |
+| Stakeholder | Cliente |
+
+---
+
+# 2. Historias de Usuario
+
+| Campo        | Descripción |
+|-------------|------------|
+| ID          | HU3|
+| Título      | Personalizacion |
+| Descripción | Como Usuario/Cliente quiero que la pagina me permita personalizar mi pedido para poder personalizar mi pedido a mi gusto|
+| Prioridad   | ALta 3 |
+| Estimación  | Esfuerzo estimado en puntos de historia |
+
+---
+
+
+
+| Campo                              | Descripción |
+|-------------------------------------|------------|
+| ID                                  | T1 |
+| Título                              |Precios de productos añadidos |
+| ID de la Historia de Usuario asociada | HU3 |
+| Descripción                         |Se debe permitir seleccionar el producto viendo el precio  |
+| Tareas requisito                    | Requiere el sistema verifique los precios de los productos a añadir |
+
+| Campo                              | Descripción |
+|-------------------------------------|------------|
+| ID                                  | T2 |
+| Título                              |Añadir productos |
+| ID de la Historia de Usuario asociada | HU3 |
+| Descripción                         |Se debe permitir añadir productos |
+| Tareas requisito                    | Requiere el sistema añadir productos |
+
+| Campo                              | Descripción |
+|-------------------------------------|------------|
+| ID                                  | T3 |
+| Título                              |Validar productos añadidos |
+| ID de la Historia de Usuario asociada | HU3 |
+| Descripción                         |Se debe permitir ver un resumen de lo que se añadio   |
+| Tareas requisito                    | Requiere el sistema ver un resumen de lo añadido|
