@@ -35,3 +35,29 @@
 ### No funcionales
 - La aplicación web use colores institucionales Dorado, Azul y Rosado
 - El sistema debe responder en máximo 1 segundos para el 85% de transacciones y debe soportar 500 pagos concurrentes
+
+## Seleccione los 2 requerimientos funcionales más importantes del sistema y desarrolle un diagrama de casos de uso con surespectiva historia de usuario
+![Diagrama en caso de uso](src/docs/images/Funcionalidad1.png)
+
+#  Historia de Usuario
+
+| Campo        | Descripción |
+|-------------|------------|
+| ID          | HU1|
+| Título      | Permitir personalizar el pedido |
+| Descripción | Redacción en formato: Como Usuario/Cliente quiero que la pagina me permita personalizar mi pedido para poder personalizar mi pedido a mi gusto |
+| Prioridad   | Alta |
+| Estimación  | 3 |
+
+---
+![Diagrama en caso de uso](src/docs/images/Funcionalidad2.png)
+
+#  Historia de Usuario
+
+| Campo        | Descripción |
+|-------------|------------|
+| ID          | HU2|
+| Título      | Permitir ver el totatl del pedido|
+| Descripción | Redacción en formato: Como Usuario/Cliente quiero que la pagina me permita ver el total mi pedido para poder ver me manera cuantitativa lo que debo pagar de  mi pedido  |
+| Prioridad   | Alta |
+| Estimación  | 3 |
